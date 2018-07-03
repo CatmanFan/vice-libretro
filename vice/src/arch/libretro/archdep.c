@@ -213,6 +213,8 @@ const char *archdep_home_path(void)
     return "/mnt/sdcard";
 #elif defined(VITA)
     return "ux0:/data";
+#elif defined(__SWITCH__)
+    return "sdmc:/";
 #elif defined(__WIN32__) || defined(GEKKO)
 return retro_system_data_directory;
 #else
