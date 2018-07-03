@@ -26,7 +26,7 @@
 #include <string.h>
 #include <stddef.h>
 
-#if defined(RARCH_INTERNAL) && defined(HAVE_CONFIG_H)
+#if defined(RARCH_INTERNAL) && defined(DRARCH_INTERNAL) && defined(HAVE_CONFIG_H)
 #include "../../../config.h"
 #endif
 
