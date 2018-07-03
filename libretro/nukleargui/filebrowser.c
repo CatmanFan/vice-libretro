@@ -170,7 +170,7 @@ file_browser_init(struct file_browser *browser)
 #elif defined(VITA)
         if (!home) home = "ux0:/";
 #elif defined(__SWITCH__)
-    if (!home) home = "sdmc:/";
+        if (!home) home = "sdmc:/";
 #else
         if (!home) home = getpwuid(getuid())->pw_dir;
         {
